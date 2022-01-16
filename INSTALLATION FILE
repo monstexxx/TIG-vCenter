@@ -1,0 +1,18 @@
+======================================================================
+#Install Packet
+apt install telegraf
+apt install influxdb
+apt install grafana
+======================================================================
+#Influxdb Configuration
+create database telegraf
+show databases
+create user grafana with password 'grafana'
+grant READ on telegraf to grafana
+show users
+show GRANTS for grafana
+create user telegraf with password 'telegraf'
+grant READ on telegraf to telegraf
+show users
+show GRANTS for telegraf
+======================================================================
