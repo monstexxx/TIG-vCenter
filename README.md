@@ -1,2 +1,2 @@
-# TIG
-Install Telegraf InfluxDB Grafana
+# TIG vCenter
+Install Telegraf InfluxDB Grafana for Monitoring vCenter
